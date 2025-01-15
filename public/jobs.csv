@@ -1,0 +1,101 @@
+id,job_title,skills,location,experience_level,job_type
+1,UI/UX Designer,Design;Sketch;Wireframing,Delhi,Entry,Full-time
+2,Backend Developer,Python;Django,Delhi,Senior,Full-time
+3,Maid,household chores;Cleaning,Bangalore,Intermediate,Contract
+4,Content Creator,social media;figma,Hyderabad,Entry,Part-time
+5,Electrician,Electricity;Installation,Pune,Intermediate,Part-time
+6,DevOps Engineer,AWS,Remote,Senior,Full-time
+7,Maid,Cleaning,Mumbai,Senior,Contract
+8,AI Engineer,TensorFlow;Pytorch;Deep Learning,Remote,Senior,Part-time
+9,UI/UX Designer,Figma;Sketch;Design;Wireframing,Hyderabad,Entry,Contract
+10,Plumber,Installation,Mumbai,Intermediate,Contract
+11,Frontend Developer,React,Hyderabad,Intermediate,Full-time
+12,UI/UX Designer,Figma;Wireframing;Sketch;Design,Delhi,Intermediate,Part-time
+13,Electrician,Maintenance;Installation;Electricity,Mumbai,Senior,Full-time
+14,Electrician,Installation;Electricity;Maintenance,Delhi,Entry,Part-time
+15,DevOps Engineer,AWS;CI/CD;Kubernetes,Remote,Senior,Part-time
+16,AI Engineer,Deep Learning;Pytorch,Remote,Senior,Part-time
+17,Backend Developer,Django;Python;Node.js;SQL,Mumbai,Intermediate,Part-time
+18,DevOps Engineer,Docker;Kubernetes;CI/CD;AWS,Mumbai,Senior,Part-time
+19,DevOps Engineer,CI/CD;Kubernetes;AWS;Docker,Pune,Intermediate,Contract
+20,Frontend Developer,CSS;JavaScript;HTML;React,Hyderabad,Entry,Full-time
+21,Product Manager,Agile,Pune,Intermediate,Contract
+22,AI Engineer,Deep Learning;Pytorch,Hyderabad,Entry,Part-time
+23,Data Scientist,Python;Machine Learning,Pune,Intermediate,Full-time
+24,DevOps Engineer,Kubernetes;CI/CD;Docker,Delhi,Senior,Part-time
+25,Carpenter,Woodwork;Maintenance;Installation,Mumbai,Senior,Full-time
+26,Teacher,student support;teaching,Remote,Entry,Contract
+27,Product Manager,Agile;Project Management;Strategy,Hyderabad,Entry,Full-time
+28,Data Scientist,Deep Learning;SQL;Machine Learning;Python,Hyderabad,Entry,Full-time
+29,driver,driving,Remote,Intermediate,Full-time
+30,Carpenter,Installation;Woodwork;Maintenance,Pune,Intermediate,Full-time
+31,AI Engineer,Pytorch;Deep Learning;Python,Hyderabad,Entry,Full-time
+32,Software Engineer,Java,Delhi,Senior,Part-time
+33,Carpenter,Woodwork;Maintenance;Installation,Mumbai,Intermediate,Full-time
+34,Plumber,Maintenance;Plumbing,Remote,Intermediate,Full-time
+35,Product Manager,Communication;Agile,Mumbai,Intermediate,Contract
+36,Maid,Cleaning;household chores,Hyderabad,Entry,Full-time
+37,Carpenter,Maintenance;Woodwork,Hyderabad,Entry,Contract
+38,Business Analyst,SQL;Data Visualization;Analytics;Excel,Remote,Entry,Part-time
+39,Software Engineer,SQL,Delhi,Entry,Full-time
+40,Electrician,Installation,Bangalore,Entry,Contract
+41,Electrician,Maintenance;Installation,Remote,Senior,Contract
+42,Content Creator,social media,Bangalore,Senior,Part-time
+43,Plumber,Plumbing;Installation;Maintenance,Pune,Entry,Full-time
+44,driver,driving,Bangalore,Intermediate,Full-time
+45,Carpenter,Maintenance;Installation;Woodwork,Delhi,Entry,Contract
+46,Carpenter,Installation,Pune,Senior,Full-time
+47,driver,driving,Bangalore,Senior,Contract
+48,Content Creator,figma;social media,Pune,Intermediate,Full-time
+49,Teacher,student support;teaching,Bangalore,Senior,Contract
+50,Teacher,teaching,Delhi,Entry,Full-time
+51,Content Creator,figma;social media,Bangalore,Intermediate,Part-time
+52,Teacher,student support;teaching,Bangalore,Entry,Full-time
+53,Frontend Developer,HTML;CSS;React;JavaScript,Bangalore,Entry,Full-time
+54,Carpenter,Maintenance;Woodwork,Remote,Intermediate,Part-time
+55,UI/UX Designer,Figma;Wireframing,Remote,Entry,Full-time
+56,Backend Developer,Node.js,Remote,Senior,Part-time
+57,driver,driving,Delhi,Entry,Full-time
+58,Business Analyst,SQL,Pune,Intermediate,Contract
+59,Frontend Developer,CSS;React,Hyderabad,Intermediate,Contract
+60,AI Engineer,Pytorch,Bangalore,Intermediate,Full-time
+61,Frontend Developer,CSS;HTML,Bangalore,Entry,Full-time
+62,UI/UX Designer,Design;Figma,Delhi,Intermediate,Full-time
+63,AI Engineer,Deep Learning;Python;Pytorch,Bangalore,Intermediate,Contract
+64,Business Analyst,Analytics;Data Visualization;SQL,Remote,Entry,Full-time
+65,UI/UX Designer,Sketch;Design,Hyderabad,Senior,Contract
+66,Data Scientist,Machine Learning;Deep Learning;Python,Mumbai,Entry,Part-time
+67,Backend Developer,Python;SQL;Node.js;Django,Bangalore,Intermediate,Contract
+68,Business Analyst,SQL,Remote,Intermediate,Contract
+69,Carpenter,Maintenance;Woodwork;Installation,Mumbai,Entry,Part-time
+70,Teacher,student support,Hyderabad,Senior,Contract
+71,Data Scientist,Python;Machine Learning;Deep Learning;SQL,Mumbai,Intermediate,Full-time
+72,Plumber,Maintenance,Remote,Intermediate,Full-time
+73,Business Analyst,SQL;Data Visualization;Excel;Analytics,Pune,Intermediate,Contract
+74,Plumber,Plumbing,Pune,Entry,Full-time
+75,AI Engineer,TensorFlow,Mumbai,Intermediate,Contract
+76,Data Scientist,Deep Learning;Python;SQL,Delhi,Senior,Full-time
+77,Backend Developer,Python;Django;Node.js,Mumbai,Intermediate,Full-time
+78,Carpenter,Maintenance,Bangalore,Intermediate,Contract
+79,Content Creator,figma,Bangalore,Senior,Full-time
+80,Carpenter,Installation;Maintenance,Pune,Intermediate,Contract
+81,UI/UX Designer,Figma;Design;Wireframing;Sketch,Delhi,Entry,Full-time
+82,Carpenter,Installation,Remote,Entry,Full-time
+83,Maid,Cleaning;household chores,Bangalore,Entry,Part-time
+84,DevOps Engineer,Docker;AWS;Kubernetes,Pune,Senior,Part-time
+85,Content Creator,figma,Hyderabad,Intermediate,Contract
+86,Frontend Developer,CSS;React;JavaScript;HTML,Pune,Entry,Part-time
+87,Teacher,teaching;student support,Bangalore,Senior,Contract
+88,Software Engineer,C++;Python;Java;SQL,Bangalore,Intermediate,Part-time
+89,Backend Developer,SQL;Django;Python;Node.js,Pune,Senior,Full-time
+90,Data Scientist,SQL,Remote,Entry,Contract
+91,DevOps Engineer,Docker;AWS,Mumbai,Entry,Contract
+92,Backend Developer,Node.js;Django;Python,Bangalore,Entry,Full-time
+93,Data Scientist,Deep Learning;Machine Learning;SQL;Python,Pune,Senior,Contract
+94,Teacher,teaching,Pune,Senior,Contract
+95,Product Manager,Agile;Project Management;Communication;Strategy,Delhi,Entry,Part-time
+96,Product Manager,Communication,Mumbai,Senior,Contract
+97,Plumber,Plumbing;Installation;Maintenance,Hyderabad,Entry,Full-time
+98,Backend Developer,Python;Django;SQL,Remote,Entry,Part-time
+99,Product Manager,Strategy;Communication,Hyderabad,Intermediate,Part-time
+100,Maid,Cleaning;household chores,Mumbai,Senior,Full-time

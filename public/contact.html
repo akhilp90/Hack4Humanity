@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Section with Email</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #282C34;
+            color: #000; /* Default font color set to black */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .contact-container {
+            width: 100%;
+            max-width: 500px;
+            padding: 2rem;
+            background-color: #fff; /* White background for the container */
+            color: #000; /* Black font color inside the container */
+            border-radius: 15px; /* Curved corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+        }
+        .contact-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .form-input, .form-textarea {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #f9f9f9;
+            color: #000; /* Black text color in inputs */
+            border: 1px solid #ccc;
+            outline: none;
+            border-radius: 5px; /* Slight rounding for inputs */
+            transition: border-color 0.3s;
+        }
+        .form-input:focus, .form-textarea:focus {
+            border-color: #888;
+        }
+        .form-textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        .submit-btn {
+            padding: 0.75rem;
+            background-color: #282C34; /* Dark background for the button */
+            color: #fff; /* White text for the button */
+            border: none;
+            border-radius: 5px; /* Slight rounding for button */
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #444;
+        }
+        #status-message {
+            text-align: center;
+            margin-top: 1rem;
+            padding: 0.5rem;
+        }
+        .success {
+            color: #00ff00;
+        }
+        .error {
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h2 class="contact-title">Contact Us</h2>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-textarea" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div id="status-message"></div>
+        </form>
+    </div>
+
+    <!-- EmailJS Library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script>
+        // Initialize EmailJS with your User ID
+        (function() {
+            emailjs.init("YOUR_USER_ID");
+        })();
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            const statusMessage = document.getElementById('status-message');
+
+            // Disable submit button and clear previous status
+            const submitBtn = e.target.querySelector('button');
+            submitBtn.disabled = true;
+            statusMessage.textContent = '';
+            statusMessage.className = '';
+
+            // EmailJS template parameters
+            const templateParams = {
+                from_name: name,
+                from_email: email,
+                message: message,
+                to_email: 'patilakhi9090@gmail.com'
+            };
+
+            // Send email using EmailJS
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+                .then(function(response) {
+                    statusMessage.textContent = 'Message sent successfully!';
+                    statusMessage.classList.add('success');
+                    e.target.reset(); // Reset form
+                }, function(error) {
+                    statusMessage.textContent = 'Failed to send message. Please try again.';
+                    statusMessage.classList.add('error');
+                    console.log('Error:', error);
+                })
+                .finally(function() {
+                    submitBtn.disabled = false;
+                });
+        });
+    </script>
+</body>
+</html>
