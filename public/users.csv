@@ -1,0 +1,11 @@
+id,name,skills,preferred_location,experience_level
+101,Anna,SQL;Java;CI/CD,Hyderabad,Entry
+102,Alice,Sketch;Maintenance,Bangalore,Intermediate
+103,Tom,Strategy;SQL,Remote,Senior
+104,Chris,driving;Installation;Deep Learning,Mumbai,Senior
+105,John,Installation;Installation,Bangalore,Entry
+106,Jane,HTML;Docker,Remote,Intermediate
+107,Bob,Deep Learning;Deep Learning;SQL,Pune,Entry
+108,Mike,TensorFlow;Analytics,Delhi,Entry
+109,Sam,Sketch;Installation,Hyderabad,Intermediate
+110,Eve,Electricity;JavaScript,Pune,Intermediate
